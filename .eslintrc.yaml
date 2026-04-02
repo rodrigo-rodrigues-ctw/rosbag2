@@ -2,9 +2,6 @@ env:
   shared-node-browser: true
   es2020: true
 
-ignorePatterns:
-  - dist
-
 extends:
   - plugin:@lichtblick/base
   - plugin:@lichtblick/jest

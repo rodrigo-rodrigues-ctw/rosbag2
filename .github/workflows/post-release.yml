@@ -22,4 +22,5 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - run: corepack enable
+      - run: yarn install --immutable
       - run: yarn publish --access public --provenance
