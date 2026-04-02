@@ -105,3 +105,8 @@ dist
 
 # MacOS
 .DS_Store
+
+# Yarn 4
+.yarn/cache
+.yarn/install-state.gz
+.pnp.*
